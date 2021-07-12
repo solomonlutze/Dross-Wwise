@@ -10,7 +10,7 @@
 								<Action Name="" ID="{EE3C37E0-358A-4F1F-AA89-ADE0D4E6E54E}" ShortID="120782687">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ClergyLoop" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -21,7 +21,18 @@
 								<Action Name="" ID="{1A9A5537-57F5-41AE-A5FF-D1E3CF044310}" ShortID="886152021">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{08516220-63EF-49CC-B9CF-A77CECB0D172}" ShortID="512548582">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="34"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -35,7 +46,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -49,7 +60,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -63,7 +74,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
