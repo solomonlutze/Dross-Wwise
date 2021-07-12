@@ -10,11 +10,11 @@
 						<ObjectRef Name="ClergyMuteChiff" ID="{F9BAC997-0CD2-43C7-A613-1ABEAA8A53D2}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyUnmuteHighPiano" ID="{CE7B688F-DC23-4408-AC67-F3F18103C69B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyUnmuteLowPiano" ID="{17FCCAF4-4225-44C6-BBAB-A8C5D5C1167B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="StopClergy" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopClergyInstant" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyMuteHighPiano" ID="{29F605B8-C10D-4740-8247-9E96EB507347}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyUnmuteOrgan" ID="{4E5EE979-3175-47F2-BB46-752CC5631E16}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyMuteLowPiano" ID="{8CF4AD79-60CB-48C5-98B4-24028F35DF5D}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PauseClergy" ID="{F0BFE8BF-AC46-4AFD-9BAA-F2E3ECD562D4}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PauseClergyInstant" ID="{F0BFE8BF-AC46-4AFD-9BAA-F2E3ECD562D4}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyMuteSynthPad" ID="{B41E2C60-E8E6-4B17-B93D-BE3BB7FB8A4A}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayClergyLoop" ID="{291917F0-93F3-4BC0-8F7A-325623113FA9}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyUnmuteSynthPad" ID="{EC5C8CBF-4C6E-4F03-AFA9-33CA584CF822}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>

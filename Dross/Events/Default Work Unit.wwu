@@ -38,7 +38,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PauseClergy" ID="{F0BFE8BF-AC46-4AFD-9BAA-F2E3ECD562D4}">
+						<Event Name="PauseClergyInstant" ID="{F0BFE8BF-AC46-4AFD-9BAA-F2E3ECD562D4}">
 							<ChildrenList>
 								<Action Name="" ID="{EE597169-F496-42A9-8C52-6D0F37F95040}" ShortID="431204230">
 									<PropertyList>
@@ -66,7 +66,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="StopClergy" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}">
+						<Event Name="StopClergyInstant" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}">
 							<ChildrenList>
 								<Action Name="" ID="{FE046C6E-AFED-45BC-B414-51196A37CBC0}" ShortID="450772820">
 									<PropertyList>
@@ -249,6 +249,38 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="PauseClergyFade" ID="{22D06C41-D905-457F-AC5D-B0E2A8EB90DD}">
+							<ChildrenList>
+								<Action Name="" ID="{647CC682-F6D8-410F-89FF-795F9B76E745}" ShortID="597074173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopClergyFade" ID="{84E297CB-55C4-4CE5-9D55-93C4C3F080FD}">
+							<ChildrenList>
+								<Action Name="" ID="{A0D7FFA7-2EB4-4A6C-BBC5-F4CF5BB1B5D4}" ShortID="1012194901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

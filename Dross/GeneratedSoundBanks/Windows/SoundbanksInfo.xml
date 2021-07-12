@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1809834757">
+		<SoundBank Id="4072029455" Language="SFX" Hash="1283073950">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -31,7 +31,8 @@
 				<Event Id="1141534542" Name="ClergyUnmuteLowPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteLowPiano"/>
 				<Event Id="3504557950" Name="ClergyUnmuteOrgan" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteOrgan"/>
 				<Event Id="1877003474" Name="ClergyUnmuteSynthPad" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteSynthPad"/>
-				<Event Id="1442202449" Name="PauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergy"/>
+				<Event Id="53993631" Name="PauseClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyFade"/>
+				<Event Id="494042608" Name="PauseClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyInstant"/>
 				<Event Id="184422097" Name="PlayClergyLoop" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyLoop">
 					<IncludedMemoryFiles>
 						<File Id="98956701" Language="SFX">
@@ -80,7 +81,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1961601257" Name="StopClergy" ObjectPath="\Events\Default Work Unit\Clergy\StopClergy"/>
+				<Event Id="3102302711" Name="StopClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyFade"/>
+				<Event Id="2842649672" Name="StopClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyInstant"/>
 				<Event Id="2939543682" Name="UnpauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\UnpauseClergy"/>
 			</IncludedEvents>
 		</SoundBank>

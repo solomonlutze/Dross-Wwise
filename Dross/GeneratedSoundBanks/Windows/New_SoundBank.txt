@@ -1,18 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	53993631	PauseClergyFade			\Default Work Unit\Clergy\PauseClergyFade	
 	96985073	ClergyMuteHighPiano			\Default Work Unit\Clergy\Stems\ClergyMuteHighPiano	
 	184422097	PlayClergyLoop			\Default Work Unit\Clergy\PlayClergyLoop	
 	380277367	ClergyUnmuteChiff			\Default Work Unit\Clergy\Stems\ClergyUnmuteChiff	
+	494042608	PauseClergyInstant			\Default Work Unit\Clergy\PauseClergyInstant	
 	1141534542	ClergyUnmuteLowPiano			\Default Work Unit\Clergy\Stems\ClergyUnmuteLowPiano	
-	1442202449	PauseClergy			\Default Work Unit\Clergy\PauseClergy	
 	1469822378	ClergyUnmuteHighPiano			\Default Work Unit\Clergy\Stems\ClergyUnmuteHighPiano	
 	1770718867	ClergyMuteSynthPad			\Default Work Unit\Clergy\Stems\ClergyMuteSynthPad	
 	1877003474	ClergyUnmuteSynthPad			\Default Work Unit\Clergy\Stems\ClergyUnmuteSynthPad	
-	1961601257	StopClergy			\Default Work Unit\Clergy\StopClergy	
 	2108607652	PlayClergyOnce			\Default Work Unit\Clergy\PlayClergyOnce	
 	2254977821	ClergyMuteOrgan			\Default Work Unit\Clergy\Stems\ClergyMuteOrgan	
 	2342160308	ClergyMuteChiff			\Default Work Unit\Clergy\Stems\ClergyMuteChiff	
 	2374381455	ClergyMuteLowPiano			\Default Work Unit\Clergy\Stems\ClergyMuteLowPiano	
+	2842649672	StopClergyInstant			\Default Work Unit\Clergy\StopClergyInstant	
 	2939543682	UnpauseClergy			\Default Work Unit\Clergy\UnpauseClergy	
+	3102302711	StopClergyFade			\Default Work Unit\Clergy\StopClergyFade	
 	3504557950	ClergyUnmuteOrgan			\Default Work Unit\Clergy\Stems\ClergyUnmuteOrgan	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
