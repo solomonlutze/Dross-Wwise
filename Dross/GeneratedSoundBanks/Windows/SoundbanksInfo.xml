@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3777140533">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="111247366">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2342160308" Name="ClergyMuteChiff" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteChiff"/>
+				<Event Id="96985073" Name="ClergyMuteHighPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteHighPiano"/>
+				<Event Id="2374381455" Name="ClergyMuteLowPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteLowPiano"/>
+				<Event Id="2254977821" Name="ClergyMuteOrgan" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteOrgan"/>
+				<Event Id="1770718867" Name="ClergyMuteSynthPad" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteSynthPad"/>
+				<Event Id="380277367" Name="ClergyUnmuteChiff" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteChiff"/>
+				<Event Id="1469822378" Name="ClergyUnmuteHighPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteHighPiano"/>
+				<Event Id="1141534542" Name="ClergyUnmuteLowPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteLowPiano"/>
+				<Event Id="3504557950" Name="ClergyUnmuteOrgan" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteOrgan"/>
+				<Event Id="1877003474" Name="ClergyUnmuteSynthPad" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteSynthPad"/>
+				<Event Id="1442202449" Name="PauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergy"/>
+				<Event Id="184422097" Name="PlayClergyLoop" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyLoop">
+					<IncludedMemoryFiles>
+						<File Id="98956701" Language="SFX">
+							<ShortName>ClergyStem - Low piano.wav</ShortName>
+							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="455845662" Language="SFX">
+							<ShortName>ClergyStem - Chiff piano.wav</ShortName>
+							<Path>SFX\ClergyStem - Chiff piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="482444022" Language="SFX">
+							<ShortName>ClergyStem - High piano.wav</ShortName>
+							<Path>SFX\ClergyStem - High piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="752304627" Language="SFX">
+							<ShortName>ClergyStem - Organ.wav</ShortName>
+							<Path>SFX\ClergyStem - Organ_9EDFC787.wem</Path>
+						</File>
+						<File Id="1062792891" Language="SFX">
+							<ShortName>ClergyStem - Clergy Synth.wav</ShortName>
+							<Path>SFX\ClergyStem - Clergy Synth_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2108607652" Name="PlayClergyOnce" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyOnce">
+					<IncludedMemoryFiles>
+						<File Id="98956701" Language="SFX">
+							<ShortName>ClergyStem - Low piano.wav</ShortName>
+							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="455845662" Language="SFX">
+							<ShortName>ClergyStem - Chiff piano.wav</ShortName>
+							<Path>SFX\ClergyStem - Chiff piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="482444022" Language="SFX">
+							<ShortName>ClergyStem - High piano.wav</ShortName>
+							<Path>SFX\ClergyStem - High piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="752304627" Language="SFX">
+							<ShortName>ClergyStem - Organ.wav</ShortName>
+							<Path>SFX\ClergyStem - Organ_9EDFC787.wem</Path>
+						</File>
+						<File Id="1062792891" Language="SFX">
+							<ShortName>ClergyStem - Clergy Synth.wav</ShortName>
+							<Path>SFX\ClergyStem - Clergy Synth_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1961601257" Name="StopClergy" ObjectPath="\Events\Default Work Unit\Clergy\StopClergy"/>
+				<Event Id="2939543682" Name="UnpauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\UnpauseClergy"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

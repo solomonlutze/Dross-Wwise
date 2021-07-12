@@ -1,6 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Clergy" ID="{C8E4B516-F2CB-4755-B082-744534A109AD}" ShortID="626698634">
+					<ChildrenList>
+						<Event Name="PlayClergyLoop" ID="{291917F0-93F3-4BC0-8F7A-325623113FA9}">
+							<ChildrenList>
+								<Action Name="" ID="{EE3C37E0-358A-4F1F-AA89-ADE0D4E6E54E}" ShortID="120782687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ClergyLoop" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayClergyOnce" ID="{D5417C20-AE72-4FAE-B23D-69EE703BD91F}">
+							<ChildrenList>
+								<Action Name="" ID="{1A9A5537-57F5-41AE-A5FF-D1E3CF044310}" ShortID="886152021">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PauseClergy" ID="{F0BFE8BF-AC46-4AFD-9BAA-F2E3ECD562D4}">
+							<ChildrenList>
+								<Action Name="" ID="{EE597169-F496-42A9-8C52-6D0F37F95040}" ShortID="431204230">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UnpauseClergy" ID="{0AF1D471-1338-41A2-AB9A-64DD010E0CAA}">
+							<ChildrenList>
+								<Action Name="" ID="{31CFFF40-223D-42CF-B822-B03C517C72CD}" ShortID="446304720">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="StopClergy" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}">
+							<ChildrenList>
+								<Action Name="" ID="{FE046C6E-AFED-45BC-B414-51196A37CBC0}" ShortID="450772820">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Stems" ID="{D62A9985-1442-4689-BA36-1F6EB9EA5C86}" ShortID="463654428">
+							<ChildrenList>
+								<Event Name="ClergyMuteLowPiano" ID="{8CF4AD79-60CB-48C5-98B4-24028F35DF5D}">
+									<ChildrenList>
+										<Action Name="" ID="{97EAE612-DB0F-412F-BC79-61623B398E81}" ShortID="631000961">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Low piano" ID="{5B0F8FEB-E6A4-452A-A855-0636C77E3938}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyMuteHighPiano" ID="{29F605B8-C10D-4740-8247-9E96EB507347}">
+									<ChildrenList>
+										<Action Name="" ID="{695F459C-491C-45A2-84BE-006D5054F056}" ShortID="151072436">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - High piano" ID="{4432359A-3DAA-4169-BE9C-4A3EB27CA2EA}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyMuteSynthPad" ID="{B41E2C60-E8E6-4B17-B93D-BE3BB7FB8A4A}">
+									<ChildrenList>
+										<Action Name="" ID="{E57B6993-B05D-4820-8A09-081D23D00006}" ShortID="958053157">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Clergy Synth" ID="{14B37B20-1A74-444D-B849-2F21F27C99B4}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyMuteOrgan" ID="{0A80691B-ACE4-4F61-8B8A-F4B0C6156E9A}">
+									<ChildrenList>
+										<Action Name="" ID="{F0015620-A76E-40F2-B27E-0BE350FDB60D}" ShortID="178962205">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Organ" ID="{E7C23057-B271-495C-A424-38413ACDB3FF}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyMuteChiff" ID="{F9BAC997-0CD2-43C7-A613-1ABEAA8A53D2}">
+									<ChildrenList>
+										<Action Name="" ID="{EA15F21C-59F3-4F40-A857-60B857943862}" ShortID="397252382">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Chiff piano" ID="{3D7362C5-A176-445A-829F-44388BCD3CC6}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyUnmuteLowPiano" ID="{17FCCAF4-4225-44C6-BBAB-A8C5D5C1167B}">
+									<ChildrenList>
+										<Action Name="" ID="{0EE370D4-1444-4DF8-BF1C-8EAA906A0088}" ShortID="549757853">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Low piano" ID="{5B0F8FEB-E6A4-452A-A855-0636C77E3938}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyUnmuteChiff" ID="{02F37D64-5905-41BB-948B-E32E3FC432BA}">
+									<ChildrenList>
+										<Action Name="" ID="{19C93E9A-D54E-4E32-AF95-853FAC561D96}" ShortID="146027970">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Chiff piano" ID="{3D7362C5-A176-445A-829F-44388BCD3CC6}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyUnmuteHighPiano" ID="{CE7B688F-DC23-4408-AC67-F3F18103C69B}">
+									<ChildrenList>
+										<Action Name="" ID="{32E55F2A-CE5F-4044-975D-E02D5EB8FDF6}" ShortID="619264795">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - High piano" ID="{4432359A-3DAA-4169-BE9C-4A3EB27CA2EA}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyUnmuteOrgan" ID="{4E5EE979-3175-47F2-BB46-752CC5631E16}">
+									<ChildrenList>
+										<Action Name="" ID="{E8D2F636-5AEC-42B1-AE96-D26BC52841F7}" ShortID="620970087">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Organ" ID="{E7C23057-B271-495C-A424-38413ACDB3FF}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyUnmuteSynthPad" ID="{EC5C8CBF-4C6E-4F03-AFA9-33CA584CF822}">
+									<ChildrenList>
+										<Action Name="" ID="{296E7A5D-4EB1-48C7-B613-55774AC0BFD7}" ShortID="555995708">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Clergy Synth" ID="{14B37B20-1A74-444D-B849-2F21F27C99B4}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
