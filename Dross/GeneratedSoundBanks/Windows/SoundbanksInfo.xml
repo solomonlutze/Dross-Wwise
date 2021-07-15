@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3777140533">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3120660137">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="2590070602">
+		<SoundBank Id="4072029455" Language="SFX" Hash="2357141020">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -40,6 +40,10 @@
 				<Event Id="494042608" Name="PauseClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyInstant" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="184422097" Name="PlayClergyLoop" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyLoop" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="19311986" Language="SFX">
+							<ShortName>ClergyStem - Clergy Synth 3.wav</ShortName>
+							<Path>SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem</Path>
+						</File>
 						<File Id="98956701" Language="SFX">
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
 							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
@@ -55,15 +59,15 @@
 						<File Id="752304627" Language="SFX">
 							<ShortName>ClergyStem - Organ.wav</ShortName>
 							<Path>SFX\ClergyStem - Organ_9EDFC787.wem</Path>
-						</File>
-						<File Id="1062792891" Language="SFX">
-							<ShortName>ClergyStem - Clergy Synth.wav</ShortName>
-							<Path>SFX\ClergyStem - Clergy Synth_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2108607652" Name="PlayClergyOnce" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyOnce" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="19311986" Language="SFX">
+							<ShortName>ClergyStem - Clergy Synth 3.wav</ShortName>
+							<Path>SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem</Path>
+						</File>
 						<File Id="98956701" Language="SFX">
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
 							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
@@ -79,10 +83,6 @@
 						<File Id="752304627" Language="SFX">
 							<ShortName>ClergyStem - Organ.wav</ShortName>
 							<Path>SFX\ClergyStem - Organ_9EDFC787.wem</Path>
-						</File>
-						<File Id="1062792891" Language="SFX">
-							<ShortName>ClergyStem - Clergy Synth.wav</ShortName>
-							<Path>SFX\ClergyStem - Clergy Synth_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

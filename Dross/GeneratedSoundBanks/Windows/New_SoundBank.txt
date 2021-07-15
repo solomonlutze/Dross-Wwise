@@ -23,9 +23,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	4232397232	ClergyLowPiano_FadeIn			\Default Work Unit\Clergy\Stems\ClergyLowPiano_FadeIn	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	98956701	ClergyStem - Low piano	C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\SFX\ClergyStem - Low piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Low piano		1508134
-	455845662	ClergyStem - Chiff piano	C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\SFX\ClergyStem - Chiff piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Chiff piano		1293530
-	482444022	ClergyStem - High piano	C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\SFX\ClergyStem - High piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - High piano		1337182
-	752304627	ClergyStem - Organ	C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\SFX\ClergyStem - Organ_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Organ		900563
-	1062792891	ClergyStem - Clergy Synth	C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\SFX\ClergyStem - Clergy Synth_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Clergy Synth		1469652
+	19311986	ClergyStem - Clergy Synth	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Clergy Synth		3176824
+	98956701	ClergyStem - Low piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Low piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Low piano		1508134
+	455845662	ClergyStem - Chiff piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Chiff piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Chiff piano		1293530
+	482444022	ClergyStem - High piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - High piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - High piano		1337182
+	752304627	ClergyStem - Organ	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Organ_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Organ		900563
 

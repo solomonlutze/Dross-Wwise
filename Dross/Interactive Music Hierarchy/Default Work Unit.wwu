@@ -285,17 +285,24 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="ClergyStem - Clergy Synth" ID="{14B37B20-1A74-444D-B849-2F21F27C99B4}" ShortID="33508123">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Clergy Synth" ID="{99AF4F2C-3724-408B-87E4-97BADC134D85}">
+										<AudioFileSource Name="ClergyStem - Clergy Synth 3" ID="{8CB93E08-C6E6-4163-A505-BB875D6B8CC1}">
 											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Clergy Synth.wav</AudioFile>
+											<AudioFile>ClergyStem - Clergy Synth 3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1062792891"/>
+												<MediaID ID="19311986"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -316,13 +323,13 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="ClergyStem - Clergy Synth" ID="{59472EA9-C334-47AD-835B-6502C6837E43}">
+																		<MusicClip Name="ClergyStem - Clergy Synth 3" ID="{48E3E101-A72F-48D6-A6AF-F05CE8556922}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="117142.875"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="222857.166666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Clergy Synth" ID="{99AF4F2C-3724-408B-87E4-97BADC134D85}"/>
+																			<AudioSourceRef Name="ClergyStem - Clergy Synth 3" ID="{8CB93E08-C6E6-4163-A505-BB875D6B8CC1}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
