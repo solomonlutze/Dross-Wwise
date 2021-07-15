@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,24 +16,29 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1283073950">
+		<SoundBank Id="4072029455" Language="SFX" Hash="2590070602">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2342160308" Name="ClergyMuteChiff" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteChiff"/>
-				<Event Id="96985073" Name="ClergyMuteHighPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteHighPiano"/>
-				<Event Id="2374381455" Name="ClergyMuteLowPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteLowPiano"/>
-				<Event Id="2254977821" Name="ClergyMuteOrgan" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteOrgan"/>
-				<Event Id="1770718867" Name="ClergyMuteSynthPad" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyMuteSynthPad"/>
-				<Event Id="380277367" Name="ClergyUnmuteChiff" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteChiff"/>
-				<Event Id="1469822378" Name="ClergyUnmuteHighPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteHighPiano"/>
-				<Event Id="1141534542" Name="ClergyUnmuteLowPiano" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteLowPiano"/>
-				<Event Id="3504557950" Name="ClergyUnmuteOrgan" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteOrgan"/>
-				<Event Id="1877003474" Name="ClergyUnmuteSynthPad" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyUnmuteSynthPad"/>
-				<Event Id="53993631" Name="PauseClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyFade"/>
-				<Event Id="494042608" Name="PauseClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyInstant"/>
-				<Event Id="184422097" Name="PlayClergyLoop" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyLoop">
+				<Event Id="3535749687" Name="ClergyChiff_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyChiff_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4078546634" Name="ClergyChiff_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyChiff_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1808654167" Name="ClergyChiff_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyChiff_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4050988588" Name="ClergyHighPiano_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyHighPiano_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1315483595" Name="ClergyHighPiano_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyHighPiano_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="508271784" Name="ClergyHighPiano_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyHighPiano_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4232397232" Name="ClergyLowPiano_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyLowPiano_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3087814807" Name="ClergyLowPiano_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyLowPiano_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4092190060" Name="ClergyLowPiano_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyLowPiano_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="862562412" Name="ClergyOrgan_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyOrgan_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1648697867" Name="ClergyOrgan_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyOrgan_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2688512488" Name="ClergyOrgan_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyOrgan_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="437274956" Name="ClergySynthPad_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergySynthPad_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1519674219" Name="ClergySynthPad_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergySynthPad_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2419406024" Name="ClergySynthPad_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergySynthPad_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="53993631" Name="PauseClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyFade" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="494042608" Name="PauseClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\PauseClergyInstant" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="184422097" Name="PlayClergyLoop" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyLoop" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="98956701" Language="SFX">
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
@@ -57,7 +62,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2108607652" Name="PlayClergyOnce" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyOnce">
+				<Event Id="2108607652" Name="PlayClergyOnce" ObjectPath="\Events\Default Work Unit\Clergy\PlayClergyOnce" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="98956701" Language="SFX">
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
@@ -81,9 +86,9 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3102302711" Name="StopClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyFade"/>
-				<Event Id="2842649672" Name="StopClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyInstant"/>
-				<Event Id="2939543682" Name="UnpauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\UnpauseClergy"/>
+				<Event Id="3102302711" Name="StopClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyFade" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2842649672" Name="StopClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyInstant" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2939543682" Name="UnpauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\UnpauseClergy" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

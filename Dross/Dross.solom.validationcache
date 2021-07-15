@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Virtual Acoustics\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Triggers\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Switches\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\States\Default Work Unit.wwu" DateLow="1626114259" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\SoundBanks\Default Work Unit.wwu" DateLow="1626357363" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Queries\Factory Queries.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Queries\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Presets\Factory Spatial Audio.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Presets\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Modulators\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Mixing Sessions\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Metadata\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1626357192" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Game Parameters\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Events\Default Work Unit.wwu" DateLow="1626366770" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Effects\Factory Effects.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Effects\Factory Auro Headphone.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Effects\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Dross.wproj" DateLow="1626282352" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Dross.solom.wsettings" DateLow="1626276144" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Conversion Settings\Default Work Unit.wwu" DateLow="1626114258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Control Surface Sessions\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Audio Devices\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Attenuations\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1626112643" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1626112643" DateHigh="0"/>
+</ValidationCache>
