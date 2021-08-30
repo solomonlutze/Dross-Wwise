@@ -60,7 +60,6 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2021.1|Build=7629|VersionName=v2021.1.2|Config=Release"/>
-			
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEwODQ4IiBtYXNrPSJaRERZODI1OSIgZW5jPSIwIj48bGlj
 ZW5zZSBpZD0iNDEiIG5hbWU9Ild3aXNlIChMaW1pdGVkIENvbW1lcmNpYWwgTGlj
 ZW5zZSkgKExpbWl0ZWQgdG8gNTAwIGFzc2V0cykiIHR5cGU9IjIiIHBsYXRmb3Jt

@@ -322,6 +322,150 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="ClergyCombatDrums_Mute" ID="{8505B7C5-187B-4D21-8E86-DBF0F15A8882}">
+									<ChildrenList>
+										<Action Name="" ID="{E999E36B-AF71-4D34-970A-47ADAA0D0D9C}" ShortID="700335914">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat drums" ID="{780F811A-FA5F-447D-A06D-DB0C0DF3C11A}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatDrums_FadeOut" ID="{4A2E2958-02AA-45E0-8D56-05877546A8B3}">
+									<ChildrenList>
+										<Action Name="" ID="{3B0C6800-ADD3-4EDC-9FE6-608855FACF73}" ShortID="406780471">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat drums" ID="{780F811A-FA5F-447D-A06D-DB0C0DF3C11A}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatDrums_FadeIn" ID="{D8373DE0-46A1-41FF-AB36-AD9822E5AD45}">
+									<ChildrenList>
+										<Action Name="" ID="{7EFE1185-D5D5-49D2-8E4F-71EC8812316B}" ShortID="568684329">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat drums" ID="{780F811A-FA5F-447D-A06D-DB0C0DF3C11A}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatKeys_Mute" ID="{A2117582-88E4-482D-9B44-EA285E9B6F8F}">
+									<ChildrenList>
+										<Action Name="" ID="{F85D85AA-6A49-4CDE-979B-8DE1CDC6437C}" ShortID="801692825">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat keys" ID="{3D1ACC6B-3CC3-4F8C-B011-A667EF033D63}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatKeys_FadeOut" ID="{0B8C7CBC-7E88-4925-A886-210D2AB82D27}">
+									<ChildrenList>
+										<Action Name="" ID="{1EEC98C4-3299-4097-A3CA-BD7419FC689C}" ShortID="996155910">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat keys" ID="{3D1ACC6B-3CC3-4F8C-B011-A667EF033D63}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatKeys_FadeIn" ID="{6CB6EA2C-E676-4FEA-A969-40E38E67D9B3}">
+									<ChildrenList>
+										<Action Name="" ID="{F8EB1C13-3947-4710-B2EA-D3E6883E24A8}" ShortID="1066248093">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat keys" ID="{3D1ACC6B-3CC3-4F8C-B011-A667EF033D63}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatSynth_FadeOut" ID="{7D20E084-6F1F-4757-A94A-90C01B309629}">
+									<ChildrenList>
+										<Action Name="" ID="{0E7894E9-1A21-45AB-98DB-2693DEAB2DD5}" ShortID="212830876">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat synth" ID="{0E1264FC-6952-490F-9E66-C3BA3C251D55}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatSynth_Mute" ID="{6D811BEB-14C3-4B5D-9B4B-74FC7F8EA010}">
+									<ChildrenList>
+										<Action Name="" ID="{5C94DEB3-9CB9-43D6-AA4A-FBB42D3FCB3A}" ShortID="179645721">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="4"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat synth" ID="{0E1264FC-6952-490F-9E66-C3BA3C251D55}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ClergyCombatSynth_FadeIn" ID="{465B84C5-F438-4285-B2B1-1CB300EE81BC}">
+									<ChildrenList>
+										<Action Name="" ID="{04B9BB3D-A97F-45A3-BF80-A8000A729E25}" ShortID="999891086">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="5"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ClergyStem - Combat synth" ID="{0E1264FC-6952-490F-9E66-C3BA3C251D55}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="PauseClergyFade" ID="{22D06C41-D905-457F-AC5D-B0E2A8EB90DD}">

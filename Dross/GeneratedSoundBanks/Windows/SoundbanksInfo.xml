@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="2357141020">
+		<SoundBank Id="4072029455" Language="SFX" Hash="1941003522">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -24,6 +24,15 @@
 				<Event Id="3535749687" Name="ClergyChiff_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyChiff_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4078546634" Name="ClergyChiff_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyChiff_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1808654167" Name="ClergyChiff_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyChiff_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2649150380" Name="ClergyCombatDrums_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatDrums_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1162885195" Name="ClergyCombatDrums_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatDrums_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4221855272" Name="ClergyCombatDrums_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatDrums_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1879436279" Name="ClergyCombatKeys_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatKeys_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1230432138" Name="ClergyCombatKeys_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatKeys_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2860874263" Name="ClergyCombatKeys_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatKeys_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3822221927" Name="ClergyCombatSynth_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatSynth_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="609965274" Name="ClergyCombatSynth_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatSynth_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1688666823" Name="ClergyCombatSynth_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyCombatSynth_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4050988588" Name="ClergyHighPiano_FadeIn" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyHighPiano_FadeIn" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1315483595" Name="ClergyHighPiano_FadeOut" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyHighPiano_FadeOut" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="508271784" Name="ClergyHighPiano_Mute" ObjectPath="\Events\Default Work Unit\Clergy\Stems\ClergyHighPiano_Mute" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -48,17 +57,29 @@
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
 							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
 						</File>
-						<File Id="455845662" Language="SFX">
-							<ShortName>ClergyStem - Chiff piano.wav</ShortName>
-							<Path>SFX\ClergyStem - Chiff piano_9EDFC787.wem</Path>
+						<File Id="366062061" Language="SFX">
+							<ShortName>ClergyStem - High piano fix.wav</ShortName>
+							<Path>SFX\ClergyStem - High piano fix_9EDFC787.wem</Path>
 						</File>
-						<File Id="482444022" Language="SFX">
-							<ShortName>ClergyStem - High piano.wav</ShortName>
-							<Path>SFX\ClergyStem - High piano_9EDFC787.wem</Path>
+						<File Id="443514291" Language="SFX">
+							<ShortName>ClergyStem - Combat drums.wav</ShortName>
+							<Path>SFX\ClergyStem - Combat drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="744760141" Language="SFX">
+							<ShortName>ClergyStem - Combat synth.wav</ShortName>
+							<Path>SFX\ClergyStem - Combat synth_9EDFC787.wem</Path>
 						</File>
 						<File Id="752304627" Language="SFX">
 							<ShortName>ClergyStem - Organ.wav</ShortName>
 							<Path>SFX\ClergyStem - Organ_9EDFC787.wem</Path>
+						</File>
+						<File Id="887696593" Language="SFX">
+							<ShortName>ClergyStem - Combat keys.wav</ShortName>
+							<Path>SFX\ClergyStem - Combat keys_9EDFC787.wem</Path>
+						</File>
+						<File Id="985111337" Language="SFX">
+							<ShortName>ClergyStem - Chiff piano fix.wav</ShortName>
+							<Path>SFX\ClergyStem - Chiff piano fix_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -72,17 +93,29 @@
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
 							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
 						</File>
-						<File Id="455845662" Language="SFX">
-							<ShortName>ClergyStem - Chiff piano.wav</ShortName>
-							<Path>SFX\ClergyStem - Chiff piano_9EDFC787.wem</Path>
+						<File Id="366062061" Language="SFX">
+							<ShortName>ClergyStem - High piano fix.wav</ShortName>
+							<Path>SFX\ClergyStem - High piano fix_9EDFC787.wem</Path>
 						</File>
-						<File Id="482444022" Language="SFX">
-							<ShortName>ClergyStem - High piano.wav</ShortName>
-							<Path>SFX\ClergyStem - High piano_9EDFC787.wem</Path>
+						<File Id="443514291" Language="SFX">
+							<ShortName>ClergyStem - Combat drums.wav</ShortName>
+							<Path>SFX\ClergyStem - Combat drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="744760141" Language="SFX">
+							<ShortName>ClergyStem - Combat synth.wav</ShortName>
+							<Path>SFX\ClergyStem - Combat synth_9EDFC787.wem</Path>
 						</File>
 						<File Id="752304627" Language="SFX">
 							<ShortName>ClergyStem - Organ.wav</ShortName>
 							<Path>SFX\ClergyStem - Organ_9EDFC787.wem</Path>
+						</File>
+						<File Id="887696593" Language="SFX">
+							<ShortName>ClergyStem - Combat keys.wav</ShortName>
+							<Path>SFX\ClergyStem - Combat keys_9EDFC787.wem</Path>
+						</File>
+						<File Id="985111337" Language="SFX">
+							<ShortName>ClergyStem - Chiff piano fix.wav</ShortName>
+							<Path>SFX\ClergyStem - Chiff piano fix_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
