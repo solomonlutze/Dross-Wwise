@@ -7,6 +7,7 @@
 				<Property Name="Event Action List\{044CA7C0-D1D9-4931-88E6-FAB10B989A75}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0A80691B-ACE4-4F61-8B8A-F4B0C6156E9A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{17FCCAF4-4225-44C6-BBAB-A8C5D5C1167B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{22D06C41-D905-457F-AC5D-B0E2A8EB90DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{291917F0-93F3-4BC0-8F7A-325623113FA9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2965FDE0-26AE-4502-9121-99A6A2CF2FEE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{29F605B8-C10D-4740-8247-9E96EB507347}\x64_Expand States" Type="string" Value=""/>
@@ -26,16 +27,19 @@
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
@@ -93,26 +97,31 @@
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows">Copy Streamed Files</Value>
+						<Value Platform="Mac">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+						<Value Platform="Mac">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 			</PropertyList>
