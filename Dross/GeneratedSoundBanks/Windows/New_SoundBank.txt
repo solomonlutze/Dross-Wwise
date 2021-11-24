@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	494042608	PauseClergyInstant			\Default Work Unit\Clergy\PauseClergyInstant	
 	508271784	ClergyHighPiano_Mute			\Default Work Unit\Clergy\Stems\ClergyHighPiano_Mute	
 	609965274	ClergyCombatSynth_FadeOut			\Default Work Unit\Clergy\Stems\ClergyCombatSynth_FadeOut	
+	669629115	TriggerClergySmallEnemyHit			\Default Work Unit\Clergy\TriggerClergySmallEnemyHit	
 	862562412	ClergyOrgan_FadeIn			\Default Work Unit\Clergy\Stems\ClergyOrgan_FadeIn	
 	1162885195	ClergyCombatDrums_FadeOut			\Default Work Unit\Clergy\Stems\ClergyCombatDrums_FadeOut	
 	1230432138	ClergyCombatKeys_FadeOut			\Default Work Unit\Clergy\Stems\ClergyCombatKeys_FadeOut	
@@ -23,6 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2939543682	UnpauseClergy			\Default Work Unit\Clergy\UnpauseClergy	
 	3087814807	ClergyLowPiano_FadeOut			\Default Work Unit\Clergy\Stems\ClergyLowPiano_FadeOut	
 	3102302711	StopClergyFade			\Default Work Unit\Clergy\StopClergyFade	
+	3498184062	TriggerClergySmallPlayerHit			\Default Work Unit\Clergy\TriggerClergySmallPlayerHit	
 	3535749687	ClergyChiff_FadeIn			\Default Work Unit\Clergy\Stems\ClergyChiff_FadeIn	
 	3822221927	ClergyCombatSynth_FadeIn			\Default Work Unit\Clergy\Stems\ClergyCombatSynth_FadeIn	
 	4050988588	ClergyHighPiano_FadeIn			\Default Work Unit\Clergy\Stems\ClergyHighPiano_FadeIn	
@@ -31,13 +33,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	4221855272	ClergyCombatDrums_Mute			\Default Work Unit\Clergy\Stems\ClergyCombatDrums_Mute	
 	4232397232	ClergyLowPiano_FadeIn			\Default Work Unit\Clergy\Stems\ClergyLowPiano_FadeIn	
 
+Trigger	ID	Name			Wwise Object Path	Notes
+	2855527090	ClergyPlayerSmallHit			\Default Work Unit\ClergyPlayerSmallHit	
+	4230137495	ClergyEnemySmallHit			\Default Work Unit\ClergyEnemySmallHit	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	19311986	ClergyStem - Clergy Synth	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Clergy Synth		3176824
-	98956701	ClergyStem - Low piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Low piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Low piano		1508134
-	366062061	ClergyStem - High piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - High piano fix_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - High piano		1339609
-	443514291	ClergyStem - Combat drums	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Combat drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Combat drums		1637203
-	744760141	ClergyStem - Combat synth	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Combat synth_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Combat synth		1610424
-	752304627	ClergyStem - Organ	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Organ_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Organ		900563
-	887696593	ClergyStem - Combat keys	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Combat keys_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Combat keys		1810188
-	985111337	ClergyStem - Chiff piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Chiff piano fix_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy\Clergy\ClergyStem - Chiff piano		1278571
+	19311986	ClergyStem - Clergy Synth	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Clergy Synth		3176824
+	26800994	Clergy_PlayerSmallHit	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_PlayerSmallHit2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Player Small Hits\Clergy_PlayerSmallHit		40542
+	83062844	Clergy_PlayerSmallHit	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_PlayerSmallHit3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Player Small Hits\Clergy_PlayerSmallHit		41403
+	98956701	ClergyStem - Low piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Low piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Low piano		1508134
+	196343448	Clergy_PlayerSmallHit	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_PlayerSmallHit1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Player Small Hits\Clergy_PlayerSmallHit		42282
+	297956327	Clergy_EnemySmallHit1	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_EnemySmallHit3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Enemy Small Hits\Clergy_EnemySmallHit1		41170
+	355561072	Clergy_PlayerSmallHit	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_PlayerSmallHit4_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Player Small Hits\Clergy_PlayerSmallHit		40800
+	366062061	ClergyStem - High piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - High piano fix_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - High piano		1339609
+	443514291	ClergyStem - Combat drums	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Combat drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Combat drums		1637203
+	451354464	Clergy_EnemySmallHit1	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_EnemySmallHit5_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Enemy Small Hits\Clergy_EnemySmallHit1		40593
+	601621679	Clergy_PlayerSmallHit	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_PlayerSmallHit5_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Player Small Hits\Clergy_PlayerSmallHit		39624
+	608252169	Clergy_EnemySmallHit1	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_EnemySmallHit2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Enemy Small Hits\Clergy_EnemySmallHit1		41218
+	645808521	Clergy_EnemySmallHit1	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_EnemySmallHit1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Enemy Small Hits\Clergy_EnemySmallHit1		41772
+	744760141	ClergyStem - Combat synth	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Combat synth_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Combat synth		1610424
+	752304627	ClergyStem - Organ	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Organ_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Organ		900563
+	887696593	ClergyStem - Combat keys	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Combat keys_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Combat keys		1810188
+	947335030	Clergy_EnemySmallHit1	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\Clergy_EnemySmallHit4_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Enemy Small Hits\Clergy_EnemySmallHit1		42437
+	985111337	ClergyStem - Chiff piano	C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\SFX\ClergyStem - Chiff piano fix_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Clergy Level Music\Clergy Background Music\Clergy Background Music\ClergyStem - Chiff piano		1278571
 

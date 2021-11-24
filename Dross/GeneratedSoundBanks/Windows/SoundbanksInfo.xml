@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX" Hash="1941003522">
+		<SoundBank Id="4072029455" Language="SFX" Hash="3066913412">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>
@@ -53,9 +53,29 @@
 							<ShortName>ClergyStem - Clergy Synth 3.wav</ShortName>
 							<Path>SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem</Path>
 						</File>
+						<File Id="26800994" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit2.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit2_9EDFC787.wem</Path>
+						</File>
+						<File Id="83062844" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit3.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit3_9EDFC787.wem</Path>
+						</File>
 						<File Id="98956701" Language="SFX">
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
 							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="196343448" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit1.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit1_9EDFC787.wem</Path>
+						</File>
+						<File Id="297956327" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit3.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit3_9EDFC787.wem</Path>
+						</File>
+						<File Id="355561072" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit4.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit4_9EDFC787.wem</Path>
 						</File>
 						<File Id="366062061" Language="SFX">
 							<ShortName>ClergyStem - High piano fix.wav</ShortName>
@@ -64,6 +84,22 @@
 						<File Id="443514291" Language="SFX">
 							<ShortName>ClergyStem - Combat drums.wav</ShortName>
 							<Path>SFX\ClergyStem - Combat drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="451354464" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit5.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit5_9EDFC787.wem</Path>
+						</File>
+						<File Id="601621679" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit5.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit5_9EDFC787.wem</Path>
+						</File>
+						<File Id="608252169" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit2.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit2_9EDFC787.wem</Path>
+						</File>
+						<File Id="645808521" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit1.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit1_9EDFC787.wem</Path>
 						</File>
 						<File Id="744760141" Language="SFX">
 							<ShortName>ClergyStem - Combat synth.wav</ShortName>
@@ -76,6 +112,10 @@
 						<File Id="887696593" Language="SFX">
 							<ShortName>ClergyStem - Combat keys.wav</ShortName>
 							<Path>SFX\ClergyStem - Combat keys_9EDFC787.wem</Path>
+						</File>
+						<File Id="947335030" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit4.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit4_9EDFC787.wem</Path>
 						</File>
 						<File Id="985111337" Language="SFX">
 							<ShortName>ClergyStem - Chiff piano fix.wav</ShortName>
@@ -89,9 +129,29 @@
 							<ShortName>ClergyStem - Clergy Synth 3.wav</ShortName>
 							<Path>SFX\ClergyStem - Clergy Synth 3_9EDFC787.wem</Path>
 						</File>
+						<File Id="26800994" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit2.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit2_9EDFC787.wem</Path>
+						</File>
+						<File Id="83062844" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit3.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit3_9EDFC787.wem</Path>
+						</File>
 						<File Id="98956701" Language="SFX">
 							<ShortName>ClergyStem - Low piano.wav</ShortName>
 							<Path>SFX\ClergyStem - Low piano_9EDFC787.wem</Path>
+						</File>
+						<File Id="196343448" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit1.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit1_9EDFC787.wem</Path>
+						</File>
+						<File Id="297956327" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit3.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit3_9EDFC787.wem</Path>
+						</File>
+						<File Id="355561072" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit4.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit4_9EDFC787.wem</Path>
 						</File>
 						<File Id="366062061" Language="SFX">
 							<ShortName>ClergyStem - High piano fix.wav</ShortName>
@@ -100,6 +160,22 @@
 						<File Id="443514291" Language="SFX">
 							<ShortName>ClergyStem - Combat drums.wav</ShortName>
 							<Path>SFX\ClergyStem - Combat drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="451354464" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit5.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit5_9EDFC787.wem</Path>
+						</File>
+						<File Id="601621679" Language="SFX">
+							<ShortName>Clergy_PlayerSmallHit5.wav</ShortName>
+							<Path>SFX\Clergy_PlayerSmallHit5_9EDFC787.wem</Path>
+						</File>
+						<File Id="608252169" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit2.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit2_9EDFC787.wem</Path>
+						</File>
+						<File Id="645808521" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit1.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit1_9EDFC787.wem</Path>
 						</File>
 						<File Id="744760141" Language="SFX">
 							<ShortName>ClergyStem - Combat synth.wav</ShortName>
@@ -113,6 +189,10 @@
 							<ShortName>ClergyStem - Combat keys.wav</ShortName>
 							<Path>SFX\ClergyStem - Combat keys_9EDFC787.wem</Path>
 						</File>
+						<File Id="947335030" Language="SFX">
+							<ShortName>Clergy_EnemySmallHit4.wav</ShortName>
+							<Path>SFX\Clergy_EnemySmallHit4_9EDFC787.wem</Path>
+						</File>
 						<File Id="985111337" Language="SFX">
 							<ShortName>ClergyStem - Chiff piano fix.wav</ShortName>
 							<Path>SFX\ClergyStem - Chiff piano fix_9EDFC787.wem</Path>
@@ -121,8 +201,22 @@
 				</Event>
 				<Event Id="3102302711" Name="StopClergyFade" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyFade" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2842649672" Name="StopClergyInstant" ObjectPath="\Events\Default Work Unit\Clergy\StopClergyInstant" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="669629115" Name="TriggerClergySmallEnemyHit" ObjectPath="\Events\Default Work Unit\Clergy\TriggerClergySmallEnemyHit" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4230137495" Name="ClergyEnemySmallHit" ObjectPath="\Triggers\Default Work Unit\ClergyEnemySmallHit"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3498184062" Name="TriggerClergySmallPlayerHit" ObjectPath="\Events\Default Work Unit\Clergy\TriggerClergySmallPlayerHit" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2855527090" Name="ClergyPlayerSmallHit" ObjectPath="\Triggers\Default Work Unit\ClergyPlayerSmallHit"/>
+					</ActionTrigger>
+				</Event>
 				<Event Id="2939543682" Name="UnpauseClergy" ObjectPath="\Events\Default Work Unit\Clergy\UnpauseClergy" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
+			<Triggers>
+				<Trigger Id="2855527090" Name="ClergyPlayerSmallHit" ObjectPath="\Triggers\Default Work Unit\ClergyPlayerSmallHit"/>
+				<Trigger Id="4230137495" Name="ClergyEnemySmallHit" ObjectPath="\Triggers\Default Work Unit\ClergyEnemySmallHit"/>
+			</Triggers>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

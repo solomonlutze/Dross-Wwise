@@ -10,7 +10,7 @@
 								<Action Name="" ID="{EE3C37E0-358A-4F1F-AA89-ADE0D4E6E54E}" ShortID="120782687">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -21,7 +21,7 @@
 								<Action Name="" ID="{1A9A5537-57F5-41AE-A5FF-D1E3CF044310}" ShortID="886152021">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -32,7 +32,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -46,7 +46,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -60,7 +60,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -74,7 +74,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -478,7 +478,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -494,7 +494,35 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											<ObjectRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TriggerClergySmallPlayerHit" ID="{7809B2D4-C430-4424-82E5-C2BDCDEDD6C3}">
+							<ChildrenList>
+								<Action Name="" ID="{44E12C20-60E5-4C2A-842E-39EB8862AF28}" ShortID="211185683">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ClergyPlayerSmallHit" ID="{47154C08-3E9F-4687-99D1-0230405BEEE6}" WorkUnitID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TriggerClergySmallEnemyHit" ID="{690A41AA-4165-47EF-94C8-AFA1BFABB99C}">
+							<ChildrenList>
+								<Action Name="" ID="{6B18DADD-634E-44F9-9740-FEEB7DEB6DBD}" ShortID="259665489">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ClergyEnemySmallHit" ID="{6CD4E0BA-9C78-4DA7-BFC9-6583CF4BFC8F}" WorkUnitID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

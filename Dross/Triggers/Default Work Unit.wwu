@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}" SchemaVersion="103">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="ClergyPlayerSmallHit" ID="{47154C08-3E9F-4687-99D1-0230405BEEE6}"/>
+				<Trigger Name="ClergyEnemySmallHit" ID="{6CD4E0BA-9C78-4DA7-BFC9-6583CF4BFC8F}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

@@ -61,19 +61,14 @@
 						<MusicPlaylistItem Name="" ID="{9C63FD7C-5160-4B6A-B0D5-77C537132206}" ShortID="447678645"/>
 					</Playlist>
 				</MusicPlaylistContainer>
-				<MusicPlaylistContainer Name="Clergy" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" ShortID="609282961">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89D29BE8-C0D5-4D47-85EE-52ED0D614BAE}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Clergy Level Music" ID="{9D48B6A1-BED3-4D7A-A50B-00FEE3FA45EB}" ShortID="1012967729">
 					<ChildrenList>
-						<MusicSegment Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" ShortID="629022917">
+						<MusicPlaylistContainer Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" ShortID="609282961">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="322645.838913339"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="67"/>
+								<Property Name="Tempo" Type="Real64" Value="105"/>
+								<Property Name="TimeSignatureLower" Type="int16" Value="8"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -84,478 +79,930 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="ClergyStem - Low piano" ID="{5B0F8FEB-E6A4-452A-A855-0636C77E3938}" ShortID="988721396">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Low piano" ID="{2DB4EBE0-58CC-4E61-AB2A-4D5A8FFE3835}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Low piano.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="98956701"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{0E1E35F6-B3B1-45EF-9419-5528E81CE0E8}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{5B45F63A-0ED0-4D19-97AC-6EBD3E3424C1}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Low piano" ID="{B78CE554-0AD8-485F-8D4B-4473800A8391}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="117142.875"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Low piano" ID="{2DB4EBE0-58CC-4E61-AB2A-4D5A8FFE3835}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - High piano" ID="{4432359A-3DAA-4169-BE9C-4A3EB27CA2EA}" ShortID="918571881">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - High piano fix" ID="{7EC96C09-32BB-443C-8DC7-ED622B6A42E5}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - High piano fix.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="366062061"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{8E255425-3206-4179-A169-9737EA668F8D}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{532BC021-749A-4B5B-BDD3-FD68CFE022FF}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - High piano fix" ID="{7A7B6546-5EAF-4D7C-9496-2F3C6CFC8712}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - High piano fix" ID="{7EC96C09-32BB-443C-8DC7-ED622B6A42E5}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - Chiff piano" ID="{3D7362C5-A176-445A-829F-44388BCD3CC6}" ShortID="763565697">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Chiff piano fix" ID="{C2E8B5FE-E9AE-4A71-A683-D3DF0FBEAA28}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Chiff piano fix.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="985111337"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{E22B4289-67E6-462D-A6B0-7AFB8BD300AD}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{5C41A7BA-12EF-4AEB-928A-8CB9A5D1DD6E}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Chiff piano fix" ID="{9A09BFA1-2F23-42D7-A86D-401A06BE623B}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Chiff piano fix" ID="{C2E8B5FE-E9AE-4A71-A683-D3DF0FBEAA28}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - Organ" ID="{E7C23057-B271-495C-A424-38413ACDB3FF}" ShortID="839594931">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Organ" ID="{0AC76218-8935-466F-9340-B46D415DEFEC}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Organ.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="752304627"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{28BA8137-400D-44EE-B4CA-2EECEB9AD643}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{09BCE29B-83BE-479D-A564-E18FFA974B12}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Organ" ID="{D0B3BD93-8505-4D8B-A479-A3C0DC6E3DDE}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="117142.875"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Organ" ID="{0AC76218-8935-466F-9340-B46D415DEFEC}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - Clergy Synth" ID="{14B37B20-1A74-444D-B849-2F21F27C99B4}" ShortID="33508123">
+								<MusicSegment Name="Clergy Background Music" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" ShortID="629022917">
 									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="322645.838913339"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89D29BE8-C0D5-4D47-85EE-52ED0D614BAE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ClergyStem - Low piano" ID="{5B0F8FEB-E6A4-452A-A855-0636C77E3938}" ShortID="988721396">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Low piano" ID="{2DB4EBE0-58CC-4E61-AB2A-4D5A8FFE3835}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Low piano.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="98956701"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0E1E35F6-B3B1-45EF-9419-5528E81CE0E8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5B45F63A-0ED0-4D19-97AC-6EBD3E3424C1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Low piano" ID="{B78CE554-0AD8-485F-8D4B-4473800A8391}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="117142.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Low piano" ID="{2DB4EBE0-58CC-4E61-AB2A-4D5A8FFE3835}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - High piano" ID="{4432359A-3DAA-4169-BE9C-4A3EB27CA2EA}" ShortID="918571881">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - High piano fix" ID="{7EC96C09-32BB-443C-8DC7-ED622B6A42E5}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - High piano fix.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="366062061"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8E255425-3206-4179-A169-9737EA668F8D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{532BC021-749A-4B5B-BDD3-FD68CFE022FF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - High piano fix" ID="{7A7B6546-5EAF-4D7C-9496-2F3C6CFC8712}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - High piano fix" ID="{7EC96C09-32BB-443C-8DC7-ED622B6A42E5}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - Chiff piano" ID="{3D7362C5-A176-445A-829F-44388BCD3CC6}" ShortID="763565697">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Chiff piano fix" ID="{C2E8B5FE-E9AE-4A71-A683-D3DF0FBEAA28}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Chiff piano fix.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="985111337"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E22B4289-67E6-462D-A6B0-7AFB8BD300AD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5C41A7BA-12EF-4AEB-928A-8CB9A5D1DD6E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Chiff piano fix" ID="{9A09BFA1-2F23-42D7-A86D-401A06BE623B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Chiff piano fix" ID="{C2E8B5FE-E9AE-4A71-A683-D3DF0FBEAA28}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - Organ" ID="{E7C23057-B271-495C-A424-38413ACDB3FF}" ShortID="839594931">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Organ" ID="{0AC76218-8935-466F-9340-B46D415DEFEC}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Organ.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752304627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{28BA8137-400D-44EE-B4CA-2EECEB9AD643}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{09BCE29B-83BE-479D-A564-E18FFA974B12}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Organ" ID="{D0B3BD93-8505-4D8B-A479-A3C0DC6E3DDE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="117142.875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Organ" ID="{0AC76218-8935-466F-9340-B46D415DEFEC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - Clergy Synth" ID="{14B37B20-1A74-444D-B849-2F21F27C99B4}" ShortID="33508123">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Clergy Synth 3" ID="{8CB93E08-C6E6-4163-A505-BB875D6B8CC1}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Clergy Synth 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="19311986"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BB281E31-2E19-4F2F-A4B5-C4742AC70E63}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4D772CAB-3127-46C4-975B-273A80CBE339}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Clergy Synth 3" ID="{48E3E101-A72F-48D6-A6AF-F05CE8556922}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="222857.166666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Clergy Synth 3" ID="{8CB93E08-C6E6-4163-A505-BB875D6B8CC1}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - Combat drums" ID="{780F811A-FA5F-447D-A06D-DB0C0DF3C11A}" ShortID="14047719">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Combat drums" ID="{BFA79B0A-0C21-4603-B4D8-689D75905578}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Combat drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="443514291"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2DF1A978-FD65-423D-B432-AD33FC1B23D2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4D3E5314-40CA-45F3-B1A9-62851DD5BCB5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Combat drums" ID="{8B3216F2-6016-4FBE-BDE7-15F748001C53}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Combat drums" ID="{BFA79B0A-0C21-4603-B4D8-689D75905578}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - Combat keys" ID="{3D1ACC6B-3CC3-4F8C-B011-A667EF033D63}" ShortID="368046612">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Combat keys" ID="{C211B78B-9397-4101-9858-DF06D10D23A9}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Combat keys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="887696593"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{25D191BA-45B6-4EFB-A95E-E2E1C5FAD047}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{25A6A7F6-A794-4ECB-BF2C-620098FB40C7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Combat keys" ID="{C3B0F0B5-4B0B-4CB2-B1F3-854D5FBADB75}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Combat keys" ID="{C211B78B-9397-4101-9858-DF06D10D23A9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ClergyStem - Combat synth" ID="{0E1264FC-6952-490F-9E66-C3BA3C251D55}" ShortID="481303776">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ClergyStem - Combat synth" ID="{20B48B2E-B495-4F83-A263-D5B7FAE4AB7E}">
+													<Language>SFX</Language>
+													<AudioFile>ClergyStem - Combat synth.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="744760141"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1DACABF8-8181-481D-B12C-BA6DBE561927}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7522DB6B-F00B-4CD9-95A0-5B5E226BFB4D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ClergyStem - Combat synth" ID="{638F0FFE-6326-4C62-832F-2672827364FE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ClergyStem - Combat synth" ID="{20B48B2E-B495-4F83-A263-D5B7FAE4AB7E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D3167334-31FD-419D-9FAE-BE9479293E78}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{66116EA0-6E7E-4506-9D09-2D94460036B4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="111428.571428571"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Clergy Player Small Hits" ID="{D49FF416-DDCE-46EE-A52E-025D11F404B1}" ShortID="109124394">
+									<PropertyList>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
+										<Property Name="Tempo" Type="Real64" Value="105"/>
+										<Property Name="TimeSignatureLower" Type="int16" Value="8"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="5"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Clergy Synth 3" ID="{8CB93E08-C6E6-4163-A505-BB875D6B8CC1}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Clergy Synth 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="19311986"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{BB281E31-2E19-4F2F-A4B5-C4742AC70E63}">
+										<MusicTrack Name="Clergy_PlayerSmallHit" ID="{28DA64EA-C8C9-4B33-89E3-5F680430CD08}" ShortID="218953129">
 											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
+												<Property Name="MusicTrackType" Type="int16" Value="2"/>
 											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clergy_PlayerSmallHit1" ID="{B26625CD-DC7D-44E7-A4FB-1D1E8A2671B2}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_PlayerSmallHit1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="196343448"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_PlayerSmallHit2" ID="{DDF14465-603A-4A73-8C9C-B7FF14DC4EFE}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_PlayerSmallHit2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="26800994"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_PlayerSmallHit3" ID="{92D54478-7A4C-40A0-B147-EFC41CA7258A}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_PlayerSmallHit3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83062844"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_PlayerSmallHit4" ID="{11130850-B777-4B6F-BFD7-F8C8A5C74DC8}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_PlayerSmallHit4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="355561072"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_PlayerSmallHit5" ID="{6B2927FD-35D2-419A-9453-B13E0275B3F8}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_PlayerSmallHit5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="601621679"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{55527C03-2A27-4677-A076-6F29F94E4442}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{998146F7-D390-48C6-8912-36A3E238B0AD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_PlayerSmallHit1" ID="{61D46FF4-1201-47A3-8D80-8D859B1B8F26}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.16666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_PlayerSmallHit1" ID="{B26625CD-DC7D-44E7-A4FB-1D1E8A2671B2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5A541BC1-C57B-4FC1-9514-452267412EBA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_PlayerSmallHit2" ID="{A1FC7604-0764-4D7B-99E9-5A4F013FD7E4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.16666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_PlayerSmallHit2" ID="{DDF14465-603A-4A73-8C9C-B7FF14DC4EFE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{61CE80D1-3A96-4F26-91B2-03B42EF3F1E8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_PlayerSmallHit3" ID="{7BA50682-D0C1-43FE-BEEC-809ECC2499C0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_PlayerSmallHit3" ID="{92D54478-7A4C-40A0-B147-EFC41CA7258A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BBADE686-ED97-4C44-9A51-1D71B1F2F898}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_PlayerSmallHit4" ID="{2908A732-049D-469E-8FDA-809C6F2FE39E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_PlayerSmallHit4" ID="{11130850-B777-4B6F-BFD7-F8C8A5C74DC8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3167AA7E-7034-4A62-81B8-295FB66270A3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_PlayerSmallHit5" ID="{457D854D-16E3-4B9F-A708-B41AA231B126}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_PlayerSmallHit5" ID="{6B2927FD-35D2-419A-9453-B13E0275B3F8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
 									<ObjectLists>
-										<ObjectList Name="Sequences">
+										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{4D772CAB-3127-46C4-975B-273A80CBE339}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Clergy Synth 3" ID="{48E3E101-A72F-48D6-A6AF-F05CE8556922}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="222857.166666667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Clergy Synth 3" ID="{8CB93E08-C6E6-4163-A505-BB875D6B8CC1}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
+													<MusicCue Name="Entry Cue" ID="{23B68583-8ED5-4507-8138-778F33D3C208}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EF26850C-40A0-4AFC-B7E7-ADE131128EE5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="428.571428571429"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 										</ObjectList>
 									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - Combat drums" ID="{780F811A-FA5F-447D-A06D-DB0C0DF3C11A}" ShortID="14047719">
+								</MusicSegment>
+								<MusicSegment Name="Clergy Enemy Small Hits" ID="{D8F951F2-BD51-4671-9202-29442AFD23BB}" ShortID="105056842">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Combat drums" ID="{BFA79B0A-0C21-4603-B4D8-689D75905578}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Combat drums.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="443514291"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{2DF1A978-FD65-423D-B432-AD33FC1B23D2}">
+										<MusicTrack Name="Clergy_EnemySmallHit1" ID="{FB3AE14D-0088-46B7-A27C-CB0E843F6F62}" ShortID="699691765">
 											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
+												<Property Name="MusicTrackType" Type="int16" Value="2"/>
 											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Clergy_EnemySmallHit1" ID="{D43C511F-BF1D-48AE-BDF6-4DF3C4D3BB6D}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_EnemySmallHit1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="645808521"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_EnemySmallHit2" ID="{53C1DC41-62EA-4F39-A061-BD2F58BCBFC3}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_EnemySmallHit2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="608252169"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_EnemySmallHit3" ID="{57637B06-ECD8-4E18-88A2-B6170CAA6080}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_EnemySmallHit3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="297956327"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_EnemySmallHit4" ID="{C8A0BF0C-259A-4704-AF67-0FB50FA1F040}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_EnemySmallHit4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="947335030"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Clergy_EnemySmallHit5" ID="{9579A802-5048-43EC-8267-ECE26DBAD392}">
+													<Language>SFX</Language>
+													<AudioFile>Clergy_EnemySmallHit5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="451354464"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{74FA7450-4CED-4FDB-93E4-5AE14C977D8B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{067B68B8-1932-4C36-B25D-F9F48F5501BE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_EnemySmallHit1" ID="{822200F7-646E-4A66-A8BA-FB5ED78C4076}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.16666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_EnemySmallHit1" ID="{D43C511F-BF1D-48AE-BDF6-4DF3C4D3BB6D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{55947659-9A67-4EA1-B0C7-62FD36E03B81}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_EnemySmallHit2" ID="{AD8A1FEF-FB21-4350-9000-623F89C06DF9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_EnemySmallHit2" ID="{53C1DC41-62EA-4F39-A061-BD2F58BCBFC3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{72D93B6A-9882-42CF-9044-B011DD79AD53}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_EnemySmallHit3" ID="{6FDE4055-2063-4660-8F4A-995E9153192F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_EnemySmallHit3" ID="{57637B06-ECD8-4E18-88A2-B6170CAA6080}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7156C22B-8C46-477B-8B35-B948AF99E2C9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_EnemySmallHit4" ID="{0EE3FB2B-DCDC-4327-8ADC-310602C2C719}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_EnemySmallHit4" ID="{C8A0BF0C-259A-4704-AF67-0FB50FA1F040}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6B23DE50-D78C-4EA8-BF04-601C08192F54}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Clergy_EnemySmallHit5" ID="{E7290B78-88CC-40AF-AA32-94DB14B2D13D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2857.14583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Clergy_EnemySmallHit5" ID="{9579A802-5048-43EC-8267-ECE26DBAD392}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
 									<ObjectLists>
-										<ObjectList Name="Sequences">
+										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{4D3E5314-40CA-45F3-B1A9-62851DD5BCB5}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Combat drums" ID="{8B3216F2-6016-4FBE-BDE7-15F748001C53}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Combat drums" ID="{BFA79B0A-0C21-4603-B4D8-689D75905578}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
+													<MusicCue Name="Entry Cue" ID="{C7C845E0-83E4-497F-BB24-A9D0DFB52249}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{91FD8F01-71AC-427D-B6BA-E3B02ABABE9D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="571.428571428571"/>
+														</PropertyList>
+													</MusicCue>
 												</Local>
 											</Reference>
 										</ObjectList>
 									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - Combat keys" ID="{3D1ACC6B-3CC3-4F8C-B011-A667EF033D63}" ShortID="368046612">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Combat keys" ID="{C211B78B-9397-4101-9858-DF06D10D23A9}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Combat keys.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="887696593"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{25D191BA-45B6-4EFB-A95E-E2E1C5FAD047}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{25A6A7F6-A794-4ECB-BF2C-620098FB40C7}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Combat keys" ID="{C3B0F0B5-4B0B-4CB2-B1F3-854D5FBADB75}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Combat keys" ID="{C211B78B-9397-4101-9858-DF06D10D23A9}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="ClergyStem - Combat synth" ID="{0E1264FC-6952-490F-9E66-C3BA3C251D55}" ShortID="481303776">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="ClergyStem - Combat synth" ID="{20B48B2E-B495-4F83-A263-D5B7FAE4AB7E}">
-											<Language>SFX</Language>
-											<AudioFile>ClergyStem - Combat synth.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="744760141"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{1DACABF8-8181-481D-B12C-BA6DBE561927}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{7522DB6B-F00B-4CD9-95A0-5B5E226BFB4D}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="ClergyStem - Combat synth" ID="{638F0FFE-6326-4C62-832F-2672827364FE}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="114285.729166667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="ClergyStem - Combat synth" ID="{20B48B2E-B495-4F83-A263-D5B7FAE4AB7E}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
+								</MusicSegment>
 							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C5E864A7-5850-47F0-9F54-9EBDED475BCA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{B58F1E7F-75D7-4773-B897-22171A8FFBD5}">
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{E1E41318-8BDB-411D-A099-46F468218BA3}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="Clergy Background Music" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="Clergy Background Music" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
 							<ObjectLists>
-								<ObjectList Name="Cues">
+								<ObjectList Name="Stingers">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{D3167334-31FD-419D-9FAE-BE9479293E78}"/>
+											<MusicStinger Name="" ID="{794A7DAF-F62D-4256-B544-AD3460DD7F6B}">
+												<TriggerRef Name="ClergyPlayerSmallHit" ID="{47154C08-3E9F-4687-99D1-0230405BEEE6}" WorkUnitID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}"/>
+												<SegmentRef Name="Clergy Player Small Hits" ID="{D49FF416-DDCE-46EE-A52E-025D11F404B1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											</MusicStinger>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{66116EA0-6E7E-4506-9D09-2D94460036B4}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="111428.571428571"/>
-												</PropertyList>
-											</MusicCue>
+											<MusicStinger Name="" ID="{ABDD781D-34DE-463E-BB4B-D46D3EBCF5BA}">
+												<TriggerRef Name="ClergyEnemySmallHit" ID="{6CD4E0BA-9C78-4DA7-BFC9-6583CF4BFC8F}" WorkUnitID="{4D629573-ADC7-4630-82A3-4F28D5CE0620}"/>
+												<SegmentRef Name="Clergy Enemy Small Hits" ID="{D8F951F2-BD51-4671-9202-29442AFD23BB}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+											</MusicStinger>
 										</Local>
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
-						</MusicSegment>
-					</ChildrenList>
-					<TransitionList>
-						<MusicTransition Name="Root" ID="{C5E864A7-5850-47F0-9F54-9EBDED475BCA}">
-							<PropertyList>
-								<Property Name="IsFolder" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{B58F1E7F-75D7-4773-B897-22171A8FFBD5}">
-									<TransitionInfo/>
-								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{E1E41318-8BDB-411D-A099-46F468218BA3}">
-									<PropertyList>
-										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="SourceContextType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
-										</Reference>
-										<Reference Name="SourceContextObject">
-											<ObjectRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
-										</Reference>
-									</ReferenceList>
-									<TransitionInfo/>
-								</MusicTransition>
-							</ChildrenList>
-							<TransitionInfo/>
-						</MusicTransition>
-					</TransitionList>
-					<ObjectLists/>
-					<Playlist>
-						<MusicPlaylistItem Name="" ID="{0128EB7E-6E33-4DA0-8C80-1AD74A40D3BC}" ShortID="919216977">
-							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{C3F20441-8DDF-4F75-9FBD-80414D25B266}" ShortID="570311580">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="Clergy" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}"/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{0128EB7E-6E33-4DA0-8C80-1AD74A40D3BC}" ShortID="919216977">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{C3F20441-8DDF-4F75-9FBD-80414D25B266}" ShortID="570311580">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Clergy Background Music" ID="{BA47F49D-16E8-495B-8988-8C00CE602EB2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
 								</MusicPlaylistItem>
-							</ChildrenList>
-						</MusicPlaylistItem>
-					</Playlist>
-				</MusicPlaylistContainer>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

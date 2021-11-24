@@ -12,6 +12,7 @@
 						<ObjectRef Name="ClergyOrgan_Mute" ID="{3B4EF2F5-C792-43A0-8EB3-64948303D849}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyChiff_FadeOut" ID="{F9BAC997-0CD2-43C7-A613-1ABEAA8A53D2}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyHighPiano_FadeIn" ID="{CE7B688F-DC23-4408-AC67-F3F18103C69B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TriggerClergySmallPlayerHit" ID="{7809B2D4-C430-4424-82E5-C2BDCDEDD6C3}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyLowPiano_FadeIn" ID="{17FCCAF4-4225-44C6-BBAB-A8C5D5C1167B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyHighPiano_Mute" ID="{2965FDE0-26AE-4502-9121-99A6A2CF2FEE}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PauseClergyFade" ID="{22D06C41-D905-457F-AC5D-B0E2A8EB90DD}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
@@ -20,6 +21,7 @@
 						<ObjectRef Name="StopClergyInstant" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyHighPiano_FadeOut" ID="{29F605B8-C10D-4740-8247-9E96EB507347}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatSynth_FadeOut" ID="{7D20E084-6F1F-4757-A94A-90C01B309629}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TriggerClergySmallEnemyHit" ID="{690A41AA-4165-47EF-94C8-AFA1BFABB99C}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyOrgan_FadeIn" ID="{4E5EE979-3175-47F2-BB46-752CC5631E16}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatKeys_Mute" ID="{A2117582-88E4-482D-9B44-EA285E9B6F8F}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergySynthPad_Mute" ID="{92D18F7A-212A-4876-BEF9-884BE18DEA3A}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
