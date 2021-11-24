@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\megan\WwiseProjects\Dross\Dross-Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\solom\Dev\Dross_Wwise\Dross Wwise\Dross\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
