@@ -5,6 +5,9 @@
 			<ChildrenList>
 				<Trigger Name="ClergyPlayerSmallHit" ID="{47154C08-3E9F-4687-99D1-0230405BEEE6}"/>
 				<Trigger Name="ClergyEnemySmallHit" ID="{6CD4E0BA-9C78-4DA7-BFC9-6583CF4BFC8F}"/>
+				<Trigger Name="ClergyVictoryStinger" ID="{C63E4B58-30E5-456F-BA7D-7F1C15411C4C}"/>
+				<Trigger Name="ClergyPlayerBigHit" ID="{E0931F80-6C19-4411-889B-A330B11D0B37}"/>
+				<Trigger Name="ClergyEnemyCharge" ID="{BDF296D2-B2E6-4AB6-930D-EDC6EA1C810A}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

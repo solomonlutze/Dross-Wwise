@@ -31,7 +31,17 @@
 						<Value Platform="Mac">256</Value>
 					</ValueList>
 				</Property>
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEwODQ4IiBtYXNrPSJaRERZODI1OSIgZW5jPSIwIj48bGlj ZW5zZSBpZD0iNDEiIG5hbWU9Ild3aXNlIChMaW1pdGVkIENvbW1lcmNpYWwgTGlj ZW5zZSkgKExpbWl0ZWQgdG8gNTAwIGFzc2V0cykiIHR5cGU9IjIiIHBsYXRmb3Jt cz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMTAtMDEiIGFzc2V0cz0i NTAwIiAvPjwvcHJvamVjdD4=|zokQTqtBahUCMJXo3uCIvFFjEtPy6RWyvjxAoTd 9vVjLbgF38zGQZvc7lhl3oVk3PV2jUQdXe5cGXxgwTEDsO/KpcBDkLSfQUnit3y0 0DG10ynA2EKSUARouooBMAyXEcYHfGzJPnpkHvXML6zgXCt6G+BB3kNiays6RXpp oiEaUp3pafS3eOoI/1VN71g4z/okAnqvGZb0HaXvYgiVRzQ/En4o9T3srLYhoabP YsbmXeolbeePmhO3ote9gZSknRXpA0CMpCs3uHwDrrJPIL1a4KPpfS4z1w3JBh+B Se8dVXybVYcH71mNq+gKyY0VHY8szcbdbddq612mDnN8m3Q== "/>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEwODQ4IiBtYXNrPSJaRERZODI1OSIgZW5jPSIwIj48bGlj
+ZW5zZSBpZD0iNDEiIG5hbWU9Ild3aXNlIChMaW1pdGVkIENvbW1lcmNpYWwgTGlj
+ZW5zZSkgKExpbWl0ZWQgdG8gNTAwIGFzc2V0cykiIHR5cGU9IjIiIHBsYXRmb3Jt
+cz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjItMTAtMDEiIGFzc2V0cz0i
+NTAwIiAvPjwvcHJvamVjdD4=|KyNGgup/xkF58TL149BXQ7WS85XVD4Sp5039osw
+TIjjUv920GvA2/fEVCOt2xFvmS5V0miVbaQZjPu4mQ+Yy4qFZBfY/orHFjlk+APS
+gtnDoXWNFahmnnKPbVF+OAhOXxU3s7TjqRgaZuI9QvlRViSGvn7SyTqLn4qmPf1F
+Nm8etLXnETneonxQTksrpWv1Y32tOBJ92rCBSCiyK3heml4jKPEr9Cs+o7RZaJSF
+sM6NsPIIGF/tcTXwn9LG1iUO5wqG0Of4tPoQSTeasBhq3F0JEPuH38bhw69XWv5u
+GqsFUCusoWiLiheqI8kS5CbK7LiWSsGZVUZeEPmGiMWezcw==
+"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
