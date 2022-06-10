@@ -2,9 +2,9 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3189127347	CurrentArea			\Default Work Unit\CurrentArea	
 
 State	ID	Name	State Group			Notes
+	491961918	Forest	CurrentArea			
 	748895195	None	CurrentArea			
 	1866128945	Clergy	CurrentArea			
-	4023194814	Ghost	CurrentArea			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	

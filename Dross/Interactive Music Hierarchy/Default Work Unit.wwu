@@ -3,65 +3,15 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="Ghost" ID="{43E1FCA3-3F29-4E04-B135-4ED4DC75904F}" ShortID="358165070">
+				<MusicSwitchContainer Name="Area Music" ID="{6D71355C-F751-439C-A759-B1C198ADC27E}" ShortID="943389603">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89D29BE8-C0D5-4D47-85EE-52ED0D614BAE}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<MusicSegment Name="Ghost" ID="{60336AAB-8B27-46AE-BE0D-8FB93E08713A}" ShortID="931103936">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{89D29BE8-C0D5-4D47-85EE-52ED0D614BAE}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
-								</Reference>
-							</ReferenceList>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{8BD4E25D-EE91-47B7-A200-14B2F66D0F45}"/>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{53B277AF-D208-4F56-A800-ABD4636E3378}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="1000"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
-					</ChildrenList>
-					<TransitionList>
-						<MusicTransition Name="Root" ID="{1BB48C06-AF22-4DE9-8340-EE60E570EA53}">
-							<PropertyList>
-								<Property Name="IsFolder" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{66E5B7D5-0DF5-4918-9056-2C578EBD264A}">
-									<TransitionInfo/>
-								</MusicTransition>
-							</ChildrenList>
-							<TransitionInfo/>
-						</MusicTransition>
-					</TransitionList>
-					<ObjectLists/>
-					<Playlist>
-						<MusicPlaylistItem Name="" ID="{9C63FD7C-5160-4B6A-B0D5-77C537132206}" ShortID="447678645"/>
-					</Playlist>
-				</MusicPlaylistContainer>
-				<Folder Name="Clergy Level Music" ID="{9D48B6A1-BED3-4D7A-A50B-00FEE3FA45EB}" ShortID="1012967729">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" ShortID="609282961">
 							<PropertyList>
@@ -664,7 +614,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -736,7 +686,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -952,7 +902,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1096,7 +1046,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1240,7 +1190,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1384,7 +1334,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1600,7 +1550,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1672,7 +1622,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1816,7 +1766,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -1960,7 +1910,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2176,7 +2126,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2248,7 +2198,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2320,7 +2270,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2392,7 +2342,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2464,7 +2414,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2680,7 +2630,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2968,7 +2918,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3184,7 +3134,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3328,7 +3278,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3400,7 +3350,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3616,7 +3566,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3688,7 +3638,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3760,7 +3710,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3832,7 +3782,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3904,7 +3854,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3976,7 +3926,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -4048,7 +3998,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -4264,7 +4214,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -4336,7 +4286,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -4624,7 +4574,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -4768,7 +4718,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -4984,7 +4934,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5200,7 +5150,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5416,7 +5366,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5632,7 +5582,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5704,7 +5654,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5848,7 +5798,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5920,7 +5870,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -5992,7 +5942,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -6208,7 +6158,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -7423,8 +7373,985 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Forest Background Music" ID="{86B52290-881D-4DCB-8F21-30AC52491A75}" ShortID="117698545">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="105"/>
+								<Property Name="TimeSignatureLower" Type="int16" Value="8"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="5"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Forest Intro" ID="{1761E9E4-3440-4DF9-88AA-3B63244FF394}" ShortID="663676178">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12142.8571428571"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Forest Intro - Bass" ID="{F387EBEE-BE72-4111-9A76-E154995DA8EC}" ShortID="815872279">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Intro - Bass" ID="{ADDDC638-C7FD-46B2-872B-EBCEF2ECAB82}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Intro - Bass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="188888642"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1F5C833B-6863-4437-BCEE-EE98FEA189D6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6956C69C-DD28-48C3-8299-43C2BBE2FB5A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Intro - Bass" ID="{B9D2BCEA-918E-44E7-83A8-0B48A91B67D5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Intro - Bass" ID="{ADDDC638-C7FD-46B2-872B-EBCEF2ECAB82}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Intro - Harp" ID="{A924BD36-5C33-4CD9-A51C-09A1B8980472}" ShortID="1054086940">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Intro - Harp" ID="{C2349F74-A804-4CD6-9CF1-77C6BB2C2CB3}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Intro - Harp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120096609"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E19501E2-1181-49BF-96DA-6D54B8215EEC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{36873BD6-4DC9-43B2-BA42-FD944BFCDCBB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Intro - Harp" ID="{DCEE8500-C6A8-4B4E-8C99-AEEC990ADF9E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Intro - Harp" ID="{C2349F74-A804-4CD6-9CF1-77C6BB2C2CB3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Intro - Keys 1" ID="{62D5170B-B64A-4A3C-8F29-D065C3920FBA}" ShortID="1040166016">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Intro - Keys 1" ID="{756F8BB4-8C82-4D4D-BAC4-5C87B2CE8386}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Intro - Keys 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="602833753"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1DC5AAEB-8863-4271-A744-C1EE64D9B643}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{89C81462-82B4-4309-86D6-73A9699DE4E9}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Intro - Keys 1" ID="{4F4F7623-7E91-4A20-A30A-975758A9B016}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Intro - Keys 1" ID="{756F8BB4-8C82-4D4D-BAC4-5C87B2CE8386}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Intro - Keys 2" ID="{2A4D310D-E8E2-41C3-ADD8-7E1C68670E72}" ShortID="166411181">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Intro - Keys 2" ID="{832243FA-A22D-4D50-B58B-CA5EB1F3D73F}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Intro - Keys 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311445076"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4E89DA5F-64A7-481D-A80D-08F9CEBA7AAF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{00474DCE-EE33-4EE4-8211-A6CC0FBB1720}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Intro - Keys 2" ID="{A2580B68-94CE-4245-AB63-E1914A3F0F81}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Intro - Keys 2" ID="{832243FA-A22D-4D50-B58B-CA5EB1F3D73F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Intro - Music box" ID="{0D51F225-5851-469E-9DEE-99E378D9A1C4}" ShortID="711113594">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Intro - Music box" ID="{954555C7-FCCD-49D4-B1BE-F604A28420B2}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Intro - Music box.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="913704626"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C8C47CA0-C8A0-4148-8D2F-B4B44CC0BA4B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E7526314-B9EF-4FB3-BE40-DF56743489A7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Intro - Music box" ID="{68B5A362-1A90-438E-8974-0ED2CA7AE071}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Intro - Music box" ID="{954555C7-FCCD-49D4-B1BE-F604A28420B2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Intro - Synth pad" ID="{B7797CA6-24F8-4D17-959E-BBB336659DB1}" ShortID="590426805">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Intro - Synth pad" ID="{315AB511-279C-4F68-8467-9E05B5A8DDEF}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Intro - Synth pad.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="244825492"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D16A8186-0FEC-4508-8299-0CF7029F5B62}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8BA039A6-E2F8-445E-99AF-D7909BF89B4E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Intro - Synth pad" ID="{8FABC14D-589A-46AA-8154-57A2065FA726}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000.0208333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Intro - Synth pad" ID="{315AB511-279C-4F68-8467-9E05B5A8DDEF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C5BF0C7D-8294-4B96-BF06-760C13670B84}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{EE0E1D9A-C368-4F40-807F-AB185DD4A96E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5714.28571428571"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Forest Loop" ID="{B26CC2E8-DC4D-458E-A7B3-E56E30361FE0}" ShortID="498122309">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="126000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Forest Loop - Bass" ID="{B3B49267-6DA2-49FD-9310-D697C98539B0}" ShortID="600388304">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Bass" ID="{F40A93DC-E1E1-4B5C-86D4-21CA904EE658}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Bass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="954991201"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B3908562-AD2E-46B0-8A41-AA640CE0BE80}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{29BB2C42-3860-4093-974B-853BC8F079EB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Bass" ID="{10120DE5-3AC9-4ABB-BD97-14122CBDBBBB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Bass" ID="{F40A93DC-E1E1-4B5C-86D4-21CA904EE658}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Combat perc" ID="{D788236C-4E8A-4803-88A3-7D2980831671}" ShortID="14530903">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Combat perc" ID="{276887DE-65B0-4CDF-ABF8-421A9D00B85A}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Combat perc.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="92829271"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{66CC72E1-6E48-48BF-A90A-5F6EC8122A8E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CA16506D-D96B-4F3F-BD48-786EA2EF82DC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Combat perc" ID="{94C3CD8D-20BA-4E7B-8CE9-53A50050E3EC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="120000.020833333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="285.714285714286"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Combat perc" ID="{276887DE-65B0-4CDF-ABF8-421A9D00B85A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Combat synth 1" ID="{EC3C4671-1838-411C-834E-5C1C49378C7F}" ShortID="113020572">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Combat synth 1" ID="{D3D51F94-4F59-432F-B470-E0F533C6A6D9}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Combat synth 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="159812642"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{84FAA8B8-108D-4B6A-A505-BCBC3B4ABA0A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{794A39B4-5996-4846-B8E2-0389D4822245}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Combat synth 1" ID="{FB8AD21D-E340-4F8E-861A-598002F05D5B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Combat synth 1" ID="{D3D51F94-4F59-432F-B470-E0F533C6A6D9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Combat synth 2" ID="{1FB64305-8690-4D0D-8A3C-FD664FC50AC1}" ShortID="1032013500">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Combat synth 2" ID="{EFFC22AA-FFDB-4862-8852-4D835FC6D037}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Combat synth 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="783013939"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7D32E230-9832-4794-8615-3F20CFEFB8B1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AC5EB8BA-F0C6-4E8E-8524-17EAE4D5463B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Combat synth 2" ID="{D348EB49-8CA1-4D39-903B-5DF076E49081}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Combat synth 2" ID="{EFFC22AA-FFDB-4862-8852-4D835FC6D037}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Harp" ID="{C74FED26-DF79-47AC-A085-F0596A6666A8}" ShortID="912578267">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Harp" ID="{E034B909-AD8F-447C-AAD0-9D573FC45002}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Harp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123161364"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DBB49800-F157-4024-BB8A-2D0C186C9169}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B96476BF-E466-4184-B5AC-3F4F5B5FC75F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Harp" ID="{9CE0C698-0E70-4512-AAA9-F751C6D8FDBE}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Harp" ID="{E034B909-AD8F-447C-AAD0-9D573FC45002}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Keys 1" ID="{E10882EF-2236-4F1D-81EB-866FB742DEAB}" ShortID="374544">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Keys 1" ID="{5A47CEEF-4604-4952-AA42-217B31CD9ADA}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Keys 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1006792690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0796144A-4D8B-4510-9B7A-7FD94B5CF2B8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8BE8924A-7A7E-4949-A564-4BF16835F05E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Keys 1" ID="{306D47ED-BDA6-4756-8026-C9F5EED74578}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Keys 1" ID="{5A47CEEF-4604-4952-AA42-217B31CD9ADA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Keys 2" ID="{2B3C9A53-5507-460B-8648-A14D6FE83785}" ShortID="303527678">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Keys 2" ID="{4F06A207-AAFE-4104-A0FC-EAF6D3592FF7}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Keys 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587922032"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{28D8D36D-A969-42D9-B1EA-FA16E4A72905}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{23BF4BF3-DB69-4CC8-90BA-E4A29967A72B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Keys 2" ID="{BA6DD143-6F8E-45BC-A5EB-F501D43B076A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Keys 2" ID="{4F06A207-AAFE-4104-A0FC-EAF6D3592FF7}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Music box" ID="{F92DDE25-22D2-4531-83CF-683562F7CAB5}" ShortID="817606111">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Music box" ID="{4994A165-310A-4257-B692-32AE91CD1A43}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Music box.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="239724574"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{08B1C1B9-EC6C-49A4-8548-E15BD308D84E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2DEFA59C-042A-489E-9C45-559949904F2F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Music box" ID="{73941576-FD22-45A1-BC37-03CC4A19E8E8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Music box" ID="{4994A165-310A-4257-B692-32AE91CD1A43}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="Forest Loop - Synth pad" ID="{D888FC26-9DC8-43D9-AB30-D86CBC11689D}" ShortID="1034927732">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Forest Loop - Synth pad" ID="{4EA19221-EDA4-46CD-8134-AAE12CF51FDE}">
+													<Language>SFX</Language>
+													<AudioFile>Forest Loop - Synth pad.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="295701603"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E31CCBCE-D505-41F4-9768-0C8012A6DF3A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{D250D78E-793C-4AB5-972D-B40B1B876547}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Forest Loop - Synth pad" ID="{A31F164B-3A31-486A-8866-BA45C8E66EC8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="124571.458333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Forest Loop - Synth pad" ID="{4EA19221-EDA4-46CD-8134-AAE12CF51FDE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FC5F6BEF-C5B0-4382-945B-8024ACB49E82}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="285.714285714286"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{A8B449DA-D74B-44AD-AFEE-A020C0FF35B8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="117428.571428571"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{5AC1A74B-72E1-4ACB-A8CC-EA9716AFB963}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4B64B6C9-6F87-4C51-BE88-239525C7FA4C}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{0CF1C72A-038D-4D1E-9D9B-EBA00818E379}" ShortID="482902111">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{180CBDDE-91E9-4524-8C70-B29469A4F9E9}" ShortID="935174162">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Forest Intro" ID="{1761E9E4-3440-4DF9-88AA-3B63244FF394}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1559C7C3-DC37-4076-B6DB-65EE6C21B255}" ShortID="341665694">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Forest Loop" ID="{B26CC2E8-DC4D-458E-A7B3-E56E30361FE0}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="Transition Silence" ID="{CCDF6ECA-2A15-4362-8F2F-5EBB12D58195}" ShortID="861141061">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="4553.71900826446"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A0701DC-2434-41A4-8F56-98E26481B054}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{7D73A610-A08A-4754-A787-3B38A1ABAAA7}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{9A381AA6-1969-4AFC-8619-4A8BC53B8737}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="1008.26446280992"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
-				</Folder>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{0A9D217B-3841-4190-AD2D-1FC471634558}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8EAAFF6D-B837-4030-B6E6-FC20D40C72CD}">
+									<PropertyList>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Transition Silence" ID="{CCDF6ECA-2A15-4362-8F2F-5EBB12D58195}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{B417A686-FA20-4B7F-A3A9-2736B341BDDB}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="5"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{35297C91-FAC4-44E6-B246-B65AF7737FCD}">
+									<PropertyList>
+										<Property Name="SourceContextType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="CurrentArea" ID="{A43ADB3C-6F44-4F34-BB18-D580AC06FE1E}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Clergy" ID="{D6B5DC14-6CE3-4450-B0AA-B57BCAD5881D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Clergy Background Music" ID="{B2108997-5B70-40F6-8634-BF3BB2606CC1}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Forest" ID="{CAB804FD-85C9-47F3-86AE-DB743E3260F9}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Forest Background Music" ID="{86B52290-881D-4DCB-8F21-30AC52491A75}" WorkUnitID="{D6FFA8BC-F183-43AC-BF7E-6EBDC8F7D2E1}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

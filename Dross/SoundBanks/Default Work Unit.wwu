@@ -5,37 +5,76 @@
 			<ChildrenList>
 				<SoundBank Name="New_SoundBank" ID="{FF2F6630-D431-4C5D-AEA4-AE489C516DDD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="ForestCombatPerc_FadeOut" ID="{54493D95-5D3A-40A9-8677-8F68E708BAE6}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestKeys1_Mute" ID="{0488471C-6C1A-4106-AD2D-0F969791F84B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetState_Forest" ID="{6F1D6886-7604-4152-8786-B401896EB2CF}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UnpauseClergy" ID="{0AF1D471-1338-41A2-AB9A-64DD010E0CAA}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyChiff_FadeIn" ID="{02F37D64-5905-41BB-948B-E32E3FC432BA}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatPerc_FadeIn" ID="{5969CB37-70B9-41D4-9D49-A417D7C7AC5B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatDrums_FadeIn" ID="{D8373DE0-46A1-41FF-AB36-AD9822E5AD45}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestMusicBox_Mute" ID="{B20425C9-9958-4201-88CA-39AD10FC4882}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClergyPlayerCharge_Mute" ID="{FAD3F083-6FE6-4276-B4FB-EFA2A497E19D}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatSynth_FadeIn" ID="{465B84C5-F438-4285-B2B1-1CB300EE81BC}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PauseMusicFade" ID="{562E5E14-73E1-431F-B907-77109B763685}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestKeys1_FadeOut" ID="{0BA78605-1427-437C-A776-B7C58384ECBE}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyOrgan_Mute" ID="{3B4EF2F5-C792-43A0-8EB3-64948303D849}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyChiff_FadeOut" ID="{F9BAC997-0CD2-43C7-A613-1ABEAA8A53D2}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestSynthPad_FadeOut" ID="{30084A1F-81A0-43F0-A3BB-49CF1CA45309}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyHighPiano_FadeIn" ID="{CE7B688F-DC23-4408-AC67-F3F18103C69B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TriggerClergySmallPlayerHit" ID="{7809B2D4-C430-4424-82E5-C2BDCDEDD6C3}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatSynth1_FadeOut" ID="{69FE096E-A4CA-44A8-A53F-694370D53855}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyLowPiano_FadeIn" ID="{17FCCAF4-4225-44C6-BBAB-A8C5D5C1167B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayMusic" ID="{887BA256-7B0B-44EE-9529-C49590B593CD}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyHighPiano_Mute" ID="{2965FDE0-26AE-4502-9121-99A6A2CF2FEE}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestBass_FadeIn" ID="{1CF4196B-E0D5-4506-B61F-CAFF994F30D1}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatSynth2_FadeIn" ID="{CFCE1BAA-C3E6-456D-ACB4-0E0767672522}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PauseClergyFade" ID="{22D06C41-D905-457F-AC5D-B0E2A8EB90DD}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatPerc_Mute" ID="{1EB1105F-457B-45D6-B160-7B56D379EFF5}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatDrums_FadeOut" ID="{4A2E2958-02AA-45E0-8D56-05877546A8B3}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyLowPiano_Mute" ID="{4034C112-37E8-463D-8CEF-BDE51D4493FF}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClergyPlayerCharge_FadeIn" ID="{239E6111-C5B8-4658-B78F-24C0D01CA773}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestMusicBox_FadeOut" ID="{DB467D4F-1D75-467A-B6CC-B96E66F8732E}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopClergyInstant" ID="{653B3202-A15E-46DA-AADF-1054AD5E268B}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PauseMusicInstant" ID="{5461A648-D9DB-46F0-89D8-36A1DD13D791}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TriggerClergyEnemyCharge" ID="{F3494ACE-2828-4722-A81C-E506200062EB}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyHighPiano_FadeOut" ID="{29F605B8-C10D-4740-8247-9E96EB507347}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatSynth_FadeOut" ID="{7D20E084-6F1F-4757-A94A-90C01B309629}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestHarp_FadeOut" ID="{024B6F0F-B22E-47D0-8470-BF88318F3600}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TriggerClergySmallEnemyHit" ID="{690A41AA-4165-47EF-94C8-AFA1BFABB99C}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyOrgan_FadeIn" ID="{4E5EE979-3175-47F2-BB46-752CC5631E16}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatKeys_Mute" ID="{A2117582-88E4-482D-9B44-EA285E9B6F8F}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ClergyPlayerCharge_FadeOut" ID="{E1EBF8C6-AC0F-484A-BB1B-2260E667D697}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestHarp_Mute" ID="{22A018AA-4FA5-4866-BD9D-3E14929A7F40}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergySynthPad_Mute" ID="{92D18F7A-212A-4876-BEF9-884BE18DEA3A}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyLowPiano_FadeOut" ID="{8CF4AD79-60CB-48C5-98B4-24028F35DF5D}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatKeys_FadeOut" ID="{0B8C7CBC-7E88-4925-A886-210D2AB82D27}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatSynth1_Mute" ID="{CF8730EB-D96C-4930-8F29-2F714ABF015E}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyChiff_Mute" ID="{044CA7C0-D1D9-4931-88E6-FAB10B989A75}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatSynth1_FadeIn" ID="{7BCE90A8-4774-4952-AEC3-D7D9034108B7}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TriggerClergyVictoryStinger" ID="{1991561B-7947-49F9-A3B4-7B0CEAC0111D}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestMusicBox_FadeIn" ID="{C841CA9F-32E7-4A69-BD45-BA3501B56C30}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatSynth2_Mute" ID="{18E9D407-32F6-4AAE-B19B-1A1260768DB6}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PauseClergyInstant" ID="{F0BFE8BF-AC46-4AFD-9BAA-F2E3ECD562D4}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergySynthPad_FadeOut" ID="{B41E2C60-E8E6-4B17-B93D-BE3BB7FB8A4A}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestBass_FadeOut" ID="{32E71444-DB54-4B4D-8139-070C91877B46}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopMusicInstant" ID="{B489537B-D6A5-4B56-90DF-DD0D1D18018D}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatSynth_Mute" ID="{6D811BEB-14C3-4B5D-9B4B-74FC7F8EA010}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestBass_Mute" ID="{92240EA5-CF41-4BBC-A80A-A5FCADE32170}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayClergyLoop" ID="{291917F0-93F3-4BC0-8F7A-325623113FA9}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestSynthPad_Mute" ID="{65EE880F-EE97-4BC5-A83A-7B1F8684804F}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestHarp_FadeIn" ID="{CDD6BB12-0043-4C6C-B866-2FE8D74E8AA4}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestKeys2_FadeOut" ID="{6FD1D407-F2F8-4C76-A675-0EC9A7DCC509}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopClergyFade" ID="{84E297CB-55C4-4CE5-9D55-93C4C3F080FD}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopMusicFade" ID="{DF6A5B7A-0ECE-4D1F-A26B-2B0377CCB783}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatDrums_Mute" ID="{8505B7C5-187B-4D21-8E86-DBF0F15A8882}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestKeys1_FadeIn" ID="{7D1C832A-07CC-4DA2-8396-E4AA523AFBCC}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestKeys2_Mute" ID="{9E27CD68-6BCC-4DCA-8CD8-002CFC5C8930}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SetState_Clergy" ID="{1FFE140B-2ACC-4EEC-8F82-3B5739505A7E}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergySynthPad_FadeIn" ID="{EC5C8CBF-4C6E-4F03-AFA9-33CA584CF822}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestSynthPad_FadeIn" ID="{5357FA10-CBC3-4F38-B236-D191BBFF1D92}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestCombatSynth2_FadeOut" ID="{AEB367E1-5DB5-4F44-8512-B2D0DBCCD840}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyOrgan_FadeOut" ID="{0A80691B-ACE4-4F61-8B8A-F4B0C6156E9A}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestKeys2_FadeIn" ID="{2B4B5E48-7890-4F7D-811B-99DD61482597}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayClergyOnce" ID="{D5417C20-AE72-4FAE-B23D-69EE703BD91F}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ClergyCombatKeys_FadeIn" ID="{6CB6EA2C-E676-4FEA-A969-40E38E67D9B3}" WorkUnitID="{5F8A4229-113D-47BB-9698-E0C3ED741209}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

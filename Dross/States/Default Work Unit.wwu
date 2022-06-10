@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<State Name="None" ID="{EDA9FB2B-E7BC-4607-AFAF-A8EAB4DFBA38}"/>
 						<State Name="Clergy" ID="{D6B5DC14-6CE3-4450-B0AA-B57BCAD5881D}"/>
-						<State Name="Ghost" ID="{CAB804FD-85C9-47F3-86AE-DB743E3260F9}"/>
+						<State Name="Forest" ID="{CAB804FD-85C9-47F3-86AE-DB743E3260F9}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
