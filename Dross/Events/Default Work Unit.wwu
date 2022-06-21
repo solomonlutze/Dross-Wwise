@@ -677,7 +677,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Folder Name="Forest" ID="{A9EBB2C8-AAAF-4EF2-A9FD-493228AFB317}" ShortID="541755570">
+				<Folder Name="Music play, pause, etc" ID="{A9EBB2C8-AAAF-4EF2-A9FD-493228AFB317}" ShortID="541755570">
 					<ChildrenList>
 						<Folder Name="Stems" ID="{0A86F2E9-ACFD-4953-A9C7-BC68AC9D179A}" ShortID="1006254436">
 							<ChildrenList>
